@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--website screen styling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Foo Fighters</title>
+    <link rel="icon" type="image/ico" href="Assets/Images/concrete.png" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="JS/jquery.easyui.min.js"></script>
+	<script src="JS/main.js"></script>
+</head>
+
+<body>
+    <div class="NavBar">
+        <a href="#HomePage">Home</a>
+        <a href="#Customiser">Listen</a>
+        <a href="#Dates">Tour</a>
+        <a href="#Gallery">Gallery</a>
+    </div>
+
+    <section id="HomePage">
+        <div>
+            <div id="HomePageContainer">
+                <h1>FOO FIGHTERS</h1>
+                <a href="https://en-gb.facebook.com/foofighters/">
+                    <img src="Assets/Images/Facebook.png" style="width: 100px; height:100px; border: 0;">
+                </a>
+                <a href="https://mobile.twitter.com/foofighters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="Assets/Images/Twitter.png" style="width: 100px; height:100px; border: 0;">
+                </a>
+                <a href="https://www.instagram.com/foofighters/?hl=en">
+                    <img src="Assets/Images/Instagram.png" style="width: 100px; height:100px; border: 0; outline: none;">
+                </a>
+                <a href="https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A">
+                    <img src="Assets/Images/YouTube.png" style="width: 100px; height:100px; border: 0; outline: none;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Customiser">
+        <div id="PlayerContainer">
+            <div id="audio-image">
+                <img class="cover" />
+            </div>
+            <div id="audio-player">
+                <div id="audio-info">
+                    <span class="title"></span>
+                </div>
+                <input id="volume" type="range" min="0" max="100" value="50">
+                <br>
+                <div id="buttons">
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </div>
+                <div class="clearfix"></div>
+                <div id="tracker">
+                    <div id="progressbar">
+                        <span id="progress"></span>
+                    </div>
+                    <span id="duration"></span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div id="PlayListContainer">
+            <ul id="playlist">
+                <li song="All My Life.mp3" cover="GreatestHits1.jpg">All My Life</li>
+                <li song="Best Of You.mp3" cover="GreatestHits1.jpg">Best Of You</li>
+                <li song="The Pretender.mp3" cover="GreatestHits1.jpg">The Pretender</li>
+                <li song="Run.mp3" cover="GreatestHits1.jpg">Run</li>
+                <li song="Doll.mp3" cover="GreatestHits1.jpg">Doll</li>
+                <li song="Bridge Burning.mp3" cover="GreatestHits1.jpg">Bridge Burning</li>
+                <li song="In Your Honor.mp3" cover="GreatestHits1.jpg">In Your Honor</li>
+                <li song="Razor.mp3" cover="GreatestHits1.jpg">Razor</li>
+                <li song="Something From Nothing.mp3" cover="GreatestHits1.jpg">Something From Nothing</li>
+                <li song="Saint Cecilia.mp3" cover="GreatestHits1.jpg">Saint Cecilia</li>
+                <li song="Stacked Actors.mp3" cover="GreatestHits1.jpg">Stacked Actors</li>
+                <li song="Alone Easy Target.mp3" cover="GreatestHits1.jpg">Alone Easy Target</li>
+                <li song="This Is A Call.mp3" cover="GreatestHits1.jpg">This Is A Call</li>
+                <li song="T-Shirt.mp3" cover="GreatestHits1.jpg">T-Shirt</li>
+                <li song="Everlong Lullaby.mp3" cover="GreatestHits1.jpg">Everlong Lullaby</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Dates">
+            <div id="DatePageContainer">
+                <h1>TOUR DATES 2019/2020</h1>
+                <ul id = "TourDates">
+                    <li>NEW 2019 EUROPEAN TOUR DATES ANNOUNCED!</li>
+                    <li>-------------------------------------------------------------------------</li>
+                    <li>18th August 2019 - London, England  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>21st August 2019 - Birmingham, England  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>24th August 2019 - Paris, France  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>27th August 2019 - Brussels, Belgium  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>1st September 2019 - Berlin, Germany <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>4th September 2019 - Munich, Germany  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>7th September 2019 - Prague, Czech Republic  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>10th September 2019 - Warsaw, Poland  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>13th September 2019 - Krakow, Poland  <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>----------------------------------------------------------</li>
+                    <li>MORE 2019 TOUR DATES ANNOUNCED!</li>
+                    <li>----------------------------------------------------------</li>
+                    <li>19th September 2019 - Minsk, Belarus <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>22nd September 2019 - Homyel, Belarus <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>25th September 2019 - Kiev, Ukraine <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>28th September 2019 - Bucharest, Romania <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>1st November 2019 - Budapest, Hungary <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>4th November 2019 - Viena, Austria <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>7th November 2019 - Milan, Italy <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>10th November 2019 - Rome, Italy <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>13th November 2019 - Zagreb, Croatia <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>16th November 2019 - Athens, Greece <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>19th November 2019 - Sofia, Bulgaria <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>--------------------------------------------------------</li>
+                    <li>2020 USA TOUR DATES ANNOUNCED!</li>
+                    <li>--------------------------------------------------------</li>
+                    <li>1st February 2020 - Seattle, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>4th February 2020 - Vancouver, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>7th February 2020 - Portland, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>10th February 2020 - San Francisco, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>13th February 2020 - Los Angeles, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>16th February 2020 - Salt Lake City, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>19th February 2020 - Minneapolis, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>22nd February 2020 - Chicago, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>25th February 2020 - Cleveland, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>28th February 2020 - Toronto, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>1st March 2020 - Denver, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>4th March 2020 - Montreal, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>7th March 2020 - Boston, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>10th March 2020 - New York, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>13th March 2020 - Washington, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>16th March 2020 - Philidelphia, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>19th March 2020 - Chapel Hill, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+                    <li>22nd March 2020 - Atlanta, USA <a href="https://www.ticketmaster.co.uk/foo-fighters-tickets/artist/776005">Get Tickets Now!</a></li>
+
+                </ul>
+            </div>
+    </section>
+
+    <section id="Gallery">
+        <img src="Assets/Images/FooImage1.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">
+        <img src="Assets/Images/FooImage2.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">
+        <img src="Assets/Images/FooImage3.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">
+        <img src="Assets/Images/FooImage4.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">     
+        <img src="Assets/Images/FooImage5.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">
+        <img src="Assets/Images/FooImage6.jpg" id="GalleryPic" style="height:250px; border: 0; padding: 20px">
+    </section>
+
+    
+</body>
+
+</html>
